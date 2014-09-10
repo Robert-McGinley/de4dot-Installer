@@ -32,10 +32,10 @@ As long as you know what you're doing, modify or delete to your hearts content.
 
 # Changelog #
 
-- 8/31/2014 - Initial Installer build committed
-- 9/10/2014 - Added compiled binary 7Zip archive of de4dot v3.1.41592/dnlib v1.0.2
+- **8/31/2014** - Initial Installer build committed
+- **9/10/2014** - Added compiled binary 7Zip archive of de4dot v3.1.41592/dnlib v1.0.2
 	- This is for those who want the binaries, but not the installer, shortcuts or explorer right-click integration stuff.
-- 9/10/2014 - Added installer for latest de4dot-master commit (Commit [42682d0fae](https://github.com/0xd4d/de4dot/commit/42682d0fae5cdc507b642223d5714dbaf83070a8), added July 25th 2014). 
+- **9/10/2014** - Added installer for latest de4dot-master commit (Commit [42682d0fae](https://github.com/0xd4d/de4dot/commit/42682d0fae5cdc507b642223d5714dbaf83070a8), added July 25th 2014). 
 	- Titled de4dot v3.1.41592.3405 Unstable to differentiate from the actual v3.1.41592 release.
 	- I wouldn't consider this "Unstable", as it's worked flawlessly for me. However *YMMV*
 
