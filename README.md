@@ -10,6 +10,8 @@ I intend to keep the installer(s) up to date with de4dot releases and perhaps ev
 
 The installer supports *Windows XP* and greater as long as a minimum of *.NET 2.0* is installed. ***Whether de4dot will work on older platforms or not has not been tested, nor will it be. YMMV.*** 
 
+Currently, de4dot-Installer is created with *Advanced Installer v10.6* Visual Studio plugin. A pure MSI/WIX installer is planned for the future.
+
 ## Features ##
 
 By default the installer provides the following:
