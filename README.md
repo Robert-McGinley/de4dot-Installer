@@ -6,6 +6,8 @@ Installer for [de4dot](https://www.github.com/0xd4d/de4dot) created by Robert Mc
 An installable package for the [de4dot](https://www.github.com/0xd4d/de4dot) .NET deobfuscator for Windows.
 Binary version of [de4dot](https://www.github.com/0xd4d/de4dot) & dnlib compiled under *Visual Studio 2013*.
 
+***Please see the [Issues section](https://github.com/Robert-McGinley/de4dot-Installer/issues) to weigh-in on future developments of this project!*** I need input from you!
+
 I intend to keep the installer(s) up to date with de4dot releases and perhaps even provide builds from the *master* branch from time-to-time. Currently the installer is created with *Caphyon Advanced Installer*; However I intend to migrate to a pure WIX installer at some point.
 
 The installer supports *Windows XP* and greater as long as a minimum of *.NET 2.0* is installed. ***Whether de4dot will work on older platforms or not has not been tested, nor will it be. YMMV.*** 
@@ -40,7 +42,10 @@ As long as you know what you're doing, modify or delete to your hearts content.
 - **9/10/2014** - Added installer for latest de4dot-master commit (Commit [42682d0fae](https://github.com/0xd4d/de4dot/commit/42682d0fae5cdc507b642223d5714dbaf83070a8), added July 25th 2014). 
 	- Titled de4dot v3.1.41592.3405 Unstable to differentiate from the actual v3.1.41592 release.
 	- I wouldn't consider this "Unstable", as it's worked flawlessly for me. However *YMMV*
-
+- **9/11/2014** - Added compiled binary 7Zip archive of de4dot v3.1.41592.3405/dnlib 1.0.2.0 (From de4dot-master & dnlib-master projects as-of 9/1/2014)
+	- These are the same binaries & PDBs that are provided in the v3.1.41592.3405 Unstable installer for those who just want de4dot and not the installer & fluff
+	- All caveats from using the aforementioned installer still apply. No modifications have been made to the de4dot or dnlib source.
+	- Compiled under Visual Studio 2013
 
 # TODO #
 - Separate the de4dot x86 & x64 components into individual packages
